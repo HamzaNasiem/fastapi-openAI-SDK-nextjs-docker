@@ -121,27 +121,27 @@ Health check endpoint returning service status.
 
 ## 📁 Project Structure
 
-.
+```plaintext
 ├── backend/
-│ ├── src/
-│ │ └── open_sdk/
-│ │ ├── agents.py # AI agent configuration
-│ │ ├── config.py # Backend configuration
-│ │ └── tools.py # Web search integration
-│ ├── app.py # FastAPI application
-│ ├── requirements.txt # Python dependencies
-│ └── Dockerfile.dev # Development container
+│   ├── src/
+│   │   └── open_sdk/
+│   │       ├── agents.py       # AI agent configuration
+│   │       ├── config.py       # Backend configuration
+│   │       └── tools.py        # Web search integration
+│   ├── app.py                  # FastAPI application
+│   ├── requirements.txt        # Python dependencies
+│   └── Dockerfile.dev          # Development container
 ├── frontend/
-│ ├── src/
-│ │ ├── app/
-│ │ │ ├── api/
-│ │ │ │ └── chatService.ts # API integration
-│ │ │ └── components/
-│ │ │ └── Chat.tsx # Main chat component
-│ ├── package.json
-│ └── Dockerfile.dev
-└── docker-compose.yml # Container orchestration
-
+│   ├── src/
+│   │   └── app/
+│   │       ├── api/
+│   │       │   └── chatService.ts  # API integration
+│   │       └── components/
+│   │           └── Chat.tsx    # Main chat component
+│   ├── package.json            # Node.js dependencies
+│   └── Dockerfile.dev          # Development container
+└── docker-compose.yml          # Container orchestration
+```
 
 ## 🔥 Features in Detail
 
